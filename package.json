@@ -29,7 +29,13 @@
     "@semantic-release/git": "^10.0.0",
     "@semantic-release/github": "^9.0.0",
     "@semantic-release/npm": "^11.0.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
     "gh-pages": "^6.3.0",
     "semantic-release": "^23.0.0"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   }
 }

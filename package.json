@@ -29,12 +29,12 @@
     "@semantic-release/changelog": "^6.0.0",
     "@semantic-release/git": "^10.0.0",
     "@semantic-release/github": "^9.0.0",
-    "@semantic-release/npm": "^11.0.0",
+    "@semantic-release/npm": "^13.1.5",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.1.1",
     "gh-pages": "^6.3.0",
-    "semantic-release": "^23.0.0",
+    "semantic-release": "^25.0.9",
     "vite": "^8.2.2"
   },
   "dependencies": {

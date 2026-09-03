@@ -9,7 +9,11 @@
   "author": "Camila <milla@apprendendo.blog>",
   "license": "MIT",
   "scripts": {
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "publishConfig": {
     "access": "public"
@@ -20,10 +24,11 @@
     ]
   },
   "devDependencies": {
-    "semantic-release": "^23.0.0",
     "@semantic-release/changelog": "^6.0.0",
     "@semantic-release/git": "^10.0.0",
     "@semantic-release/github": "^9.0.0",
-    "@semantic-release/npm": "^11.0.0"
+    "@semantic-release/npm": "^11.0.0",
+    "gh-pages": "^6.3.0",
+    "semantic-release": "^23.0.0"
   }
 }

@@ -16,7 +16,7 @@ export default function App() {
     <div className="has-background-light" style={{ minHeight: '100vh' }}>
       <Header secaoAtiva={secaoAtiva} setSecaoAtiva={setSecaoAtiva} />
 
-      <main className="container my-5 px-3">
+      <main className="container my-5 px-3" style={{ minHeight: '100vh' }}>
         {secaoAtiva === 'sobre' && <Sobre />}
         {secaoAtiva === 'horarios' && <Horarios />}
         {secaoAtiva === 'aulas' && <Aulas />}

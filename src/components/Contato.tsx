@@ -7,7 +7,7 @@ export default function Contato() {
       </p>
       <div className="content">
         <ul>
-          <li><strong>E-mail Institucional:</strong> monitoriaetecbraz@gmail.com</li>
+          <li><strong>E-mail Institucional:</strong> <a href="mailto:monitoriaetecbraz@gmail.com">monitoriaetecbraz@gmail.com</a></li>
           <li><strong>Atendimento Presencial:</strong> Consulte os <a href="./Horarios">horários</a></li>
           <li>
             <strong>Repositório do Projeto:</strong>{' '}

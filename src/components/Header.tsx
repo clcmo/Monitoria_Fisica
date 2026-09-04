@@ -15,11 +15,11 @@ const ABAS: { id: Secao; label: string }[] = [
 
 export default function Header({ secaoAtiva, setSecaoAtiva }: HeaderProps) {
   return (
-    <header className="hero is-dark">
+    <header className="hero is-dark is-large">
       <div className="hero-body py-4">
         <div className="container">
-          <p className="title is-5 has-text-white">
-            Plataforma de Monitoria — Exatas &amp; BNCC
+          <p className="title is-3 has-text-white">
+            Plataforma de Monitoria — Exatas
           </p>
         </div>
       </div>

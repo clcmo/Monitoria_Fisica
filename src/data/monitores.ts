@@ -27,9 +27,9 @@ export const MONITORES: Monitor[] = [
   {
     id: '3',
     materia: 'Matemática',
-    areaBNCC: 'Ciências da Natureza e suas Tecnologias',
+    areaBNCC: 'Matemática e suas Tecnologias',
     nome: 'Lucas / Monitor de Matemática',
-    horario: 'Quartas — 15h às 17h',
+    horario: 'Quartas — 13h às 15h',
     local: 'Sala de aula',
   },
   {
